@@ -19,12 +19,6 @@ module.exports = function toReadable(number) {
         }
     }
 
-
-    console.log(hundred_num > 0);
-    console.log(tens_num);
-
-
-
     if (tens_num > 19) {
         result += tens[tens_num[0]];
         if (ones_num[0] != "0") {
